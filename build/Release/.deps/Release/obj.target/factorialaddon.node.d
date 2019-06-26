@@ -1,0 +1,1 @@
+cmd_Release/obj.target/factorialaddon.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=factorialaddon.node -o Release/obj.target/factorialaddon.node -Wl,--start-group Release/obj.target/factorialaddon/cppsrc/main.o Release/obj.target/factorialaddon/cppsrc/Samples/factorialExample.o Release/obj.target/node_modules/node-addon-api/src/nothing.a -Wl,--end-group 
